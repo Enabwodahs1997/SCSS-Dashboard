@@ -1,0 +1,21 @@
+.headbar {
+  background-color: #ffffff;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+@use 'headbar';
+@use 'vars' as v;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: v.$my-gray;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
