@@ -2,16 +2,33 @@
 @use 'vars' as v;
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: v.$verdana-family;
   background-color: v.$my-gray;
   margin: 0;
   padding: 0;
 }
-.container {
-  display: flex;
-  justify-content: center;
+.main {
+  margin: v.$unit-size;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 .logo {
   font-size: 24px;
   font-weight: bold;
+}
+.box {
+  margin-top: v.$unit-size;
+  margin-right: v.$unit-size;
+  width: v.$box-size;
+  height: v.$box-size;
+  background-color: #fff;
+  border-radius: v.$unit-size;
+}
+.boxstuff {
+  margin: v.$unit-size;
+  position: absolute;
+}
+.boxt {
+  @extend .box;
+  height: v.$box-size*2;
 }
