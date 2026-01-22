@@ -2,13 +2,16 @@
 @use 'vars' as v;
 
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Rubik", sans-serif;
   background-color: v.$my-gray;
   margin: 0;
   padding: 0;
   display: grid;
   place-items: center;
   height: 100vh;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .main {
@@ -25,8 +28,23 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.tags {
+.newline {
+  display: block;
+}
+
+.sameline {
   display: flex;
+}
+
+.stats {
+  @extend .newline;
+  margin-top: 26px;
+  margin-left: 6px;
+}
+
+.separate {
+  @extend .sameline;
+  justify-content: space-between;
 }
 
 .box {
@@ -39,8 +57,7 @@ body {
 }
 
 .boxstuff {
-  margin: v.$unit-size;
-  position: absolute;
+  margin: v.$unit-size*1.5;
 }
 
 .one {
@@ -61,6 +78,12 @@ body {
   grid-column: 2 / 4;
 }
 
+.large {
+  font-weight: 400;
+  font-size: 42px;
+  margin-top: 16px;
+}
+
 h4, h6 {
   margin: 0;
 }
@@ -79,6 +102,11 @@ h4, h6 {
 .blue {
   background-color: #d7ecff;
   color: #233652;
+}
+
+p {
+  margin: 0;
+  font-size: 12px;
 }
 
 @media (max-width: 900px) {
