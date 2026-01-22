@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title><link rel="stylesheet" href="styleloginpg.css">
+  </head>
+  <body>
+    <div class="full">
+      <div class="text">
+       <img src="Image/download.jpg" alt="Logo" class="logo">
+       <p> 
+            <h2>Create Your Account</h2>
+            <h3>Complete your profile</h3>
+        </p>
+      </div>
+        <div class="container">
+            <form method="post" action="createuser">
+                <div class="name-row">
+                    <div class="name-field">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="First Name" required>
+                    </div>
+                    <div class="name-field">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="Last Name" required>
+                    </div>
+                </div>
+                <input type="text" id="username" name="Username" placeholder="Username" required>
+                <input type="email" id="email" name="Email" placeholder="Email" required>
+                <input type="password" id="password" name="Password" placeholder="Password" required>
+                <div class="agreement">
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">I agree to the terms and conditions</label>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+            <button class="back-btn" onclick="window.location.href='../index.html'">Back to Home
+            </button>
+        </div>
+    </div>
+  </body>
+</html>
