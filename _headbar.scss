@@ -45,3 +45,17 @@
     font-size: 1rem;
     width: 200px;
 }
+.headbar .login {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: block;
+}
+.headbar .login img {
+    height: 30px;
+    width: 30px;        
+    border-radius: 50%; 
+    object-fit: cover;  
+    display: block;
+}
