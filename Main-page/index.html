@@ -20,7 +20,10 @@
                 <input type="text" placeholder="Search...">
             </nav>
             <nav class="nav-links">
-                <a href="#">Home</a>
+                <div class="link-wrapper">
+                    <a href="#" class="home-link">Home</a>
+                    <span class="note-bubble">You are already home!</span>
+                </div>
                 <a href="#">About</a>
                 <a href="#">Services</a>
                 <a href="#">Contact</a>
@@ -203,6 +206,17 @@
             }
         }
     });
+</script>
+<script>
+const homeLink = document.querySelector('.home-link');
+const bubble = document.querySelector('.note-bubble');
+homeLink.addEventListener('click', function(event) {
+    event.preventDefault(); 
+    bubble.classList.add('show');
+    setTimeout(function() {
+        bubble.classList.remove('show');
+    }, 2000);
+});
 </script>
 </body>
 </html>
