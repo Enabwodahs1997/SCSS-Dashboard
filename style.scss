@@ -90,6 +90,10 @@ img {
   margin: v.$unit-size*1.5;
 }
 
+.btnswitch {
+  background-color: v.$white;
+}
+
 .one {
   @extend .box;
   grid-row: 1 / 3;

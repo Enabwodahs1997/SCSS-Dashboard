@@ -158,6 +158,10 @@ img {
   margin: 1.5em;
 }
 
+.btnswitch {
+  background-color: #fff;
+}
+
 .one {
   grid-row: 1/3;
 }
