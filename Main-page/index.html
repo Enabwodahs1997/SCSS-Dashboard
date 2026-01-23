@@ -166,6 +166,17 @@
         }
     });
 </script>
-<script src="months.js"></script>
+<script src="calendar.js"></script>
+<script>
+const homeLink = document.querySelector('.home-link');
+const bubble = document.querySelector('.note-bubble');
+homeLink.addEventListener('click', function(event) {
+    event.preventDefault(); 
+    bubble.classList.add('show');
+    setTimeout(function() {
+        bubble.classList.remove('show');
+    }, 2000);
+});
+</script>
 </body>
 </html>
