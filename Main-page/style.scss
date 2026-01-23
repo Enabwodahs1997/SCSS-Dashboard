@@ -1,6 +1,15 @@
 @use 'headbar';
 @use 'vars' as v;
 
+@mixin day {
+  margin: 1px;
+  background-color: v.$light-blue;
+}
+
+@mixin block {
+  display: block;
+}
+
 body {
   font-family: "Rubik", sans-serif;
   position: relative;
@@ -43,10 +52,6 @@ img {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
-
-@mixin block {
-  display: block;
 }
 
 .newline {
@@ -205,11 +210,6 @@ p {
   color: v.$white;
   border-radius: v.$unit-size;
   padding: 3px;
-}
-
-@mixin day {
-  margin: 1px;
-  background-color: v.$light-blue;
 }
 
 .mon {
