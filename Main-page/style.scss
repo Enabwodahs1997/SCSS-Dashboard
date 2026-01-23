@@ -149,7 +149,7 @@ img {
   align-items: center;
   font-weight: 500;
   margin-top: 12px;
-  background-color: v.$blue;
+  background-color: rgb(193, 252, 246);
   color: v.$white;
   border: none;
   border-radius: 2em;
@@ -159,7 +159,7 @@ img {
 }
 
 .outside:hover {
-  background-color: darken(v.$blue, 10%);
+  background-color: darken(rgb(248, 190, 199), 10%);
 }
 
 .four {

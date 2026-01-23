@@ -199,7 +199,7 @@ img {
   align-items: center;
   font-weight: 500;
   margin-top: 12px;
-  background-color: #544ceb;
+  background-color: rgb(193, 252, 246);
   color: #fff;
   border: none;
   border-radius: 2em;
@@ -209,7 +209,7 @@ img {
 }
 
 .outside:hover {
-  background-color: rgb(40.175879397, 30.1256281407, 229.8743718593);
+  background-color: rgb(243.0416666667, 143.9583333333, 159.3333333333);
 }
 
 .four {
