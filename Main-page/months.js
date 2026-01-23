@@ -53,8 +53,8 @@ const febcontent = `<div class="sameline" id="boxrow">
                                 </div>
                             </div>
                             <div class="sameline">
-                                <img src="../Image/tron.png">
-                                <div class="newline"><h5 class="mentor">Tron</h5><p>Security program</p></div>
+                                <img src="../Image/mcp.png">
+                                <div class="newline"><h5 class="mentor">MCP</h5><p>Former chess alg</p></div>
                             </div>
                         </div>
                         <div class="innerbox inwidth" id="mid">
@@ -79,8 +79,8 @@ const febcontent = `<div class="sameline" id="boxrow">
                                 </div>
                             </div>
                             <div class="sameline">
-                                <img src="../Image/mcp.png">
-                                <div class="newline"><h5 class="mentor">MCP</h5><p>Former chess alg</p></div>
+                                <img src="../Image/tron.png">
+                                <div class="newline"><h5 class="mentor">Tron</h5><p>Security program</p></div>
                             </div>
                         </div>
                     </div>`;
