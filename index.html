@@ -79,28 +79,28 @@
     const ctx = document.getElementById('loginChart').getContext('2d');
     
     new Chart(ctx, {
-        type: 'line', // A line chart looks best for "Activity"
+        type: 'line', 
         data: {
-            labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S'], // Days of week
+            labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S'], 
             datasets: [{
                 label: 'Login Clicks',
-                data: [12, 19, 3, 5, 2, 3, 10], // Example data points
-                borderColor: '#4bc0c0',      // Teal color
+                data: [12, 19, 3, 5, 2, 3, 10], 
+                borderColor: '#4bc0c0',      
                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
                 borderWidth: 2,
-                tension: 0.4,                // Makes lines curvy
-                pointRadius: 0               // Hides dots for a cleaner look
+                tension: 0.4,                
+                pointRadius: 0               
             }]
         },
         options: {
             responsive: true,
-            maintainAspectRatio: false,      // IMPORTANT: Lets it resize to the flexbox
+            maintainAspectRatio: false,      
             plugins: {
-                legend: { display: false }   // Hides the label to save space
+                legend: { display: false }   
             },
             scales: {
-                x: { display: false },       // Hides X axis grid
-                y: { display: false }        // Hides Y axis grid
+                x: { display: false },       
+                y: { display: false }        
             }
         }
     });
