@@ -127,6 +127,10 @@ img {
   display: flex;
 }
 
+.sameline img, .separate img {
+  margin-right: 12px;
+}
+
 .chart-container {
   display: block;
   width: 100%;
